@@ -1,0 +1,47 @@
+/* Body */
+body{
+    background-color: hsl(220deg 26% 77%);
+}
+
+body::before{
+    opacity: 0.5;
+}
+
+/* Box */
+.box{
+    background-color: white;
+    border-radius: 18.8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 309px;
+    padding-top: 14px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+/* Image */
+img{
+    height: 270px;
+    width: auto;
+    border-radius: 18.8px;
+}
+
+/* h1 */
+h1{
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: -7px;
+}
+
+/* p */
+p{
+    color: grey;
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
